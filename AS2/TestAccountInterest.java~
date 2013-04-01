@@ -1,0 +1,10 @@
+public class TestAccountInterest
+{
+    public static void main (String[]args)
+    {
+        Account acc1 = new Account(500);
+        acc1.computeInterest(3);
+        System.out.println("Balance: "+ acc1.getBalance());
+        
+    }
+}

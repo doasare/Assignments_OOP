@@ -1,0 +1,22 @@
+
+public class SportsCar extends vehicle
+{
+    
+    private double topspeed;
+    public SportsCar(double hs, double ad, double w, double ts){
+        super(hs, ad, w);
+        
+    
+    }
+  
+
+       
+    
+    
+    
+    public double getAerodynamics()
+    { 
+        aerodynamics = 0.5;
+        return aerodynamics;
+    }
+}

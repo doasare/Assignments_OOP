@@ -1,0 +1,24 @@
+import javax.swing.*;
+class exercise3
+{
+	public static void main(String[] args)
+	{
+		double x = Double.parseDouble(args[0]);// collects and stores information 
+		double y = Double.parseDouble(args[1]);// collects and stores information 
+		double z = Double.parseDouble(args[2]);// collects and stores information
+
+		double[] number = {x, y, z};// puts collected information in array
+
+		sort (number);// sends to the method sort to sort the array
+
+		System.out.println(number[1] + " middle number between " + number[0] + " and " + number[2] + "!");// prints out the sorted 			numbers
+	}
+		public static double [] sort(double []number)		
+		{
+
+		java.util.Arrays.sort(number);// java imported code to sort the numbers
+		
+
+		return number;
+		}
+}
